@@ -1,5 +1,5 @@
-#Info
-Every message in this text file needs to be translated, including commands. Any annotations to it should be ignored. The final file should look similar to en.lang, except with the messages replaced by your translations. This is just a file to nicely list out all of the messages.
+# Info
+Every message in this text file needs to be translated, including commands. Any annotations to it should be ignored. The final file should look similar to https://github.com/SCPStats/Bot-Translations/blob/master/translations/en.lang, except with the messages replaced by your translations. This is just a file to nicely list out all of the messages.
 
 ## General
 Error
