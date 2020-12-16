@@ -124,5 +124,5 @@ fs.readdirSync("translations/").forEach(file => {
 });
 
 if(error){
-    throw "There was one or more errors in the translation files. Please review the log for further details.";
+    throw new Error("There was one or more errors in the translation files. Please review the log for further details.");
 }    
