@@ -103,6 +103,10 @@ fs.readdirSync("translations/").forEach(file => {
                 console.warn("Value for key \""+key+"\" does not end with a space. There may be a valid reason for this in some languages, but most of the time it should end with one, so please double check it,");
             }
 
+            if(translation.includes(key)) {
+                console.warn("Duplicate key \""+key+"\"!");
+            }
+
             translation.push(key);
             
         });
