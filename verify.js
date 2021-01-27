@@ -92,6 +92,12 @@ fs.readdirSync("translations/").forEach(file => {
 
         lang.split(/\r?\n/).forEach(val => {
             let vals1 = val.split("=");
+
+            if(vals1.length < 2 || vals1[0].includes(" ")){
+                console.warn("Error with invalid line: \""+val+"\"!");
+                return;
+            }
+
             const vals = [vals1.slice(0, 1)[0], vals1.slice(1).join("=")];
             
             const key = vals[0].trim().toLowerCase();
