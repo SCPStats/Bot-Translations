@@ -91,33 +91,34 @@ fs.readdirSync("translations/").forEach(file => {
 
         let translation = [];
 
-        lang.split(/\r?\n/).forEach(val => {
+        for (let i = 0; i < lang.split(/\r?\n/).length; i++){
+            let val = lang.split(/\r?\n/)[i];
             let vals1 = val.split("=");
 
             if(vals1.length < 2 || vals1[0].includes(" ")){
-                console.warn("Error with invalid line: \""+val+"\"!");
-                return;
+                console.warn("Error with invalid line: \""+val+"\" (line "+i+")!");
+                continue;
             }
 
             const vals = [vals1.slice(0, 1)[0], vals1.slice(1).join("=")];
-            
+
             const key = vals[0].trim().toLowerCase();
             if(vals[0] !== key){
-                console.warn("Key name not well formatted for \""+key+"\"!");
+                console.warn("Key name not well formatted for \""+key+"\" (line "+i+")!");
             }
-            
+
             if(spaceEnds.includes(key) && !endSpace.test(val)){
-                console.warn("Value for key \""+key+"\" does not end with a space. There may be a valid reason for this in some languages, but most of the time it should end with one, so please double check it,");
+                console.warn("Value for key \""+key+"\" (line "+i+") does not end with a space. There may be a valid reason for this in some languages, but most of the time it should end with one, so please double check it,");
             }
 
             if(translation.includes(key)) {
-                console.warn("Duplicate key \""+key+"\"!");
+                console.warn("Duplicate key \""+key+"\" (line "+i+")!");
             }
 
             translation.push(key);
-            
-        });
-        
+
+        }
+
         let localError = false;
 
         keys.filter(key => !translation.includes(key)).forEach(key => {
