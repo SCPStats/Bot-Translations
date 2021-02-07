@@ -68,7 +68,9 @@ const keys = [
   "lang_desc",
   "lang_thislang",
   "lang_success",
-  "hours"
+  "hours",
+  "rank_rank",
+  "rank_level"
 ];
 
 const spaceEnds = [

@@ -62,3 +62,5 @@ lang_desc=Available Languages:
 lang_thislang=English
 lang_success=Successfully changed the language!
 hours=hours
+rank_rank=Rank
+rank_level=Level

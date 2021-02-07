@@ -62,3 +62,5 @@ lang_desc=Доступные языки:
 lang_thislang=Русский
 lang_success=Язык успешно установлен!
 hours=часов
+rank_rank=Rank
+rank_level=Level
