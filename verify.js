@@ -28,6 +28,8 @@ const keys = [
   "help_cmd_stats_desc",
   "help_cmd_rank_cmd",
   "help_cmd_rank_desc",
+  "help_cmd_serverrank_cmd",
+  "help_cmd_serverrank_desc",
   "help_cmd_serverstats_cmd",
   "help_cmd_serverstats_desc",
   "help_cmd_leaderboard_cmd",
