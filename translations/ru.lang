@@ -13,6 +13,7 @@ stats_field_kd=K/D
 stats_field_playtime=Наигранное время
 stats_field_rounds=Раундов сыграно
 stats_field_sodas=Газировки выпито
+stats_field_escapes=Escapes
 stats_footer=Если ваша статистика не работает, убедитесь, что Вы привязали Steam аккаунт.
 help_title=Помощь
 help_cmd_help_cmd=помощь

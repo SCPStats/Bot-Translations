@@ -13,6 +13,7 @@ stats_field_kd=K/D
 stats_field_playtime=Temps joué
 stats_field_rounds=Matchs joués
 stats_field_sodas=SCP-207 consommés
+stats_field_escapes=Escapes
 stats_footer=Si vos statistiques ne fonctionnent pas, assurez-vous que vous avez lié votre compte de Steam.
 help_title=Help
 help_cmd_help_cmd=help

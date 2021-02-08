@@ -13,6 +13,7 @@ stats_field_kd=K/D
 stats_field_playtime=Spielzeit
 stats_field_rounds=Gespielte Runden
 stats_field_sodas=Limonaden getrunken
+stats_field_escapes=Escapes
 stats_footer=Wenn deine Statistiken nicht funktionieren, versichere dich das dein Steam Account verknüpft ist.
 help_title=Hilfe
 help_cmd_help_cmd=hilfe

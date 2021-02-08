@@ -13,6 +13,7 @@ stats_field_kd=K/D
 stats_field_playtime=Tempo di gioco
 stats_field_rounds=Rounds Giocato
 stats_field_sodas=Coca-Cola usate
+stats_field_escapes=Escapes
 stats_footer=se le tue stats non funzionano, assicurati di aver linkato il tuo profilo di steam al tuo account discord!
 help_title=Aiuto
 help_cmd_help_cmd=aiuto

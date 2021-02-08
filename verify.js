@@ -20,6 +20,7 @@ const keys = [
   "stats_field_playtime",
   "stats_field_rounds",
   "stats_field_sodas",
+  "stats_field_escapes",
   "stats_footer",
   "help_title",
   "help_cmd_help_cmd",

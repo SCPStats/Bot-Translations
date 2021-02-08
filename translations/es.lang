@@ -13,6 +13,7 @@ stats_field_kd=A/M
 stats_field_playtime=Tiempo de juego
 stats_field_rounds=Rondas Jugadas
 stats_field_sodas=Bebidas consumidas
+stats_field_escapes=Escapes
 stats_footer=Si tus estadísticas no funcionan, asegurate de que has vinculado tu cuenta de steam.
 help_title=Ayuda
 help_cmd_help_cmd=help
