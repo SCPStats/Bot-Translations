@@ -39,9 +39,13 @@ Get some cool info about the bot.
 link {
 
 You must be an administrator to run this command!
+
 Usage
+
 <server ID>
+
 This server is already linked!
+
 Link here: 
 
 }
@@ -49,6 +53,7 @@ Link here:
 unlink {
 
 Successfully unlinked server!
+
 This server is not linked!
 
 }
@@ -56,7 +61,9 @@ This server is not linked!
 prefix {
 
 You must specify a prefix.
+
 The prefix is too large.
+
 The prefix was successfully changed!
 
 }
@@ -64,7 +71,9 @@ The prefix was successfully changed!
 rank {
 
 This discord server isn't linked to any SCP servers. It can be linked with the ``!link <server ID>`` command.
+
 Rank (used as Rank #1)
+
 Level (used as Level 1)
 
 }
@@ -72,7 +81,9 @@ Level (used as Level 1)
 leaderboard {
 
 Leaderboard
+
 Here is the leaderboard
+
 place (as in, 1st place)
 
 }
@@ -80,6 +91,7 @@ place (as in, 1st place)
 invite {
 
 Invite
+
 You can invite the bot to your own server here: https://discord.com/api/oauth2/authorize?client_id=741924143070707732&permissions=265216&scope=bot
 
 }
@@ -87,9 +99,13 @@ You can invite the bot to your own server here: https://discord.com/api/oauth2/a
 botinfo {
 
 Bot Info
+
 Here's some info about the bot
+
 Author
+
 Server Count
+
 Invite
 
 }
