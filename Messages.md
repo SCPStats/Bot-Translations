@@ -64,8 +64,8 @@ The prefix was successfully changed!
 rank {
 
 This discord server isn't linked to any SCP servers. It can be linked with the ``!link <server ID>`` command.
-Rank
-{user} is in {number-th} place!
+Rank (used as Rank #1)
+Level (used as Level 1)
 
 }
 

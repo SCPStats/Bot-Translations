@@ -55,9 +55,6 @@ const keys = [
   "prefix_noprefix",
   "prefix_toolong",
   "prefix_message",
-  "rank_title",
-  "rank_msg1",
-  "rank_msg2",
   "leaderboard_title",
   "leaderboard_desc",
   "leaderboard_place",
@@ -92,7 +89,6 @@ const spaceEnds = [
   "usage_message",
   "stats_message",
   "link_linkmessage",
-  "rank_msg1",
   "invite_msg"
 ];
 
