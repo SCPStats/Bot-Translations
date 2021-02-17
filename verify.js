@@ -48,6 +48,10 @@ const keys = [
   "help_cmd_botinfo_desc",
   "help_cmd_lang_cmd",
   "help_cmd_lang_desc",
+  "help_cmd_rankrole_cmd",
+  "help_cmd_rankrole_desc",
+  "help_cmd_rankroles_cmd",
+  "help_cmd_rankroles_desc",
   "link_alreadylinked",
   "link_linkmessage",
   "unlink_message",
@@ -82,7 +86,17 @@ const keys = [
   "minutes",
   "seconds",
   "rank_rank",
-  "rank_level"
+  "rank_level",
+  "needs_manage_roles",
+  "rank_roles_title",
+  "rank_roles_setup",
+  "rank_role_title",
+  "rank_role_usage",
+  "rank_role_invalid_rule",
+  "rank_role_invalid_metric",
+  "rank_role_invalid_number",
+  "rank_role_invalid_role",
+  "rank_role_success"
 ];
 
 const spaceEnds = [
