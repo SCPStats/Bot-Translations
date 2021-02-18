@@ -71,6 +71,7 @@ const keys = [
   "leaderboard_title_balls",
   "leaderboard_title_adrenaline",
   "leaderboard_title_escapes",
+  "leaderboard_title_fastestescape",
   "invite_title",
   "invite_msg",
   "botinfo_title",
