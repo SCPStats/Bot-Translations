@@ -52,6 +52,8 @@ const keys = [
   "help_cmd_rankrole_desc",
   "help_cmd_rankroles_cmd",
   "help_cmd_rankroles_desc",
+  "help_cmd_warnings_cmd",
+  "help_cmd_warnings_desc",
   "link_alreadylinked",
   "link_linkmessage",
   "unlink_message",
@@ -97,14 +99,22 @@ const keys = [
   "rank_role_invalid_metric",
   "rank_role_invalid_number",
   "rank_role_invalid_role",
-  "rank_role_success"
+  "rank_role_success",
+  "warnings_title",
+  "warnings_footer",
+  "warnings_message_top",
+  "warnings_type_warning",
+  "warnings_type_ban",
+  "warnings_type_kick",
+  "warnings_type_mute"
 ];
 
 const spaceEnds = [
   "usage_message",
   "stats_message",
   "link_linkmessage",
-  "invite_msg"
+  "invite_msg",
+  "warnings_footer"
 ];
 
 const endSpace = /\s$/;
