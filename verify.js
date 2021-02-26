@@ -54,6 +54,14 @@ const keys = [
   "help_cmd_rankroles_desc",
   "help_cmd_warnings_cmd",
   "help_cmd_warnings_desc",
+  "help_cmd_stafflist_cmd",
+  "help_cmd_stafflist_desc",
+  "help_cmd_addstaff_cmd",
+  "help_cmd_addstaff_desc",
+  "help_cmd_removestaff_cmd",
+  "help_cmd_removestaff_desc",
+  "help_cmd_stafftime_cmd",
+  "help_cmd_stafftime_desc",
   "link_alreadylinked",
   "link_linkmessage",
   "unlink_message",
@@ -106,7 +114,18 @@ const keys = [
   "warnings_type_warning",
   "warnings_type_ban",
   "warnings_type_kick",
-  "warnings_type_mute"
+  "warnings_type_mute",
+  "user_not_found",
+  "stafflist_title",
+  "stafflist_already_staff",
+  "stafflist_not_staff",
+  "stafflist_add_success",
+  "stafflist_remove_success",
+  "stafftime_title",
+  "stafftime_lines_total",
+  "stafftime_lines_24h",
+  "stafftime_lines_7days",
+  "stafftime_lines_30days"
 ];
 
 const spaceEnds = [
@@ -114,7 +133,11 @@ const spaceEnds = [
   "stats_message",
   "link_linkmessage",
   "invite_msg",
-  "warnings_footer"
+  "warnings_footer",
+  "stafftime_lines_total",
+  "stafftime_lines_24h",
+  "stafftime_lines_7days",
+  "stafftime_lines_30days"
 ];
 
 const endSpace = /\s$/;
