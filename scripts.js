@@ -1,7 +1,7 @@
 exports.ordinals = {en: ord_en};
 
 function ord_en(i){
-	const j = i % 10,
+    const j = i % 10,
         k = i % 100;
     if (j === 1 && k !== 11) {
         return i + "st";
