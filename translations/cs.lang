@@ -108,6 +108,7 @@ warnings_type_warning=Varování
 warnings_type_ban=Ban
 warnings_type_kick=Kick
 warnings_type_mute=Mute
+warnings_type_intercommute=Intercom Mute
 user_not_found=Uživatel nenalezen!
 stafflist_title=Staff List
 stafflist_already_staff=Tento uživatel už je staff member!

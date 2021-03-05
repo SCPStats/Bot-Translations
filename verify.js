@@ -115,6 +115,7 @@ const keys = [
   "warnings_type_ban",
   "warnings_type_kick",
   "warnings_type_mute",
+  "warnings_type_intercommute",
   "user_not_found",
   "stafflist_title",
   "stafflist_already_staff",

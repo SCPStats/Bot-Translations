@@ -108,6 +108,7 @@ warnings_type_warning=Waarschuwing
 warnings_type_ban=Ban
 warnings_type_kick=Kick
 warnings_type_mute=Mute
+warnings_type_intercommute=Intercom Mute
 user_not_found=The specified user was not found!
 stafflist_title=Staff List
 stafflist_already_staff=This user is already a staff member!
