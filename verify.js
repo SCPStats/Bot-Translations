@@ -126,7 +126,8 @@ const keys = [
   "stafftime_lines_total",
   "stafftime_lines_24h",
   "stafftime_lines_7days",
-  "stafftime_lines_30days"
+  "stafftime_lines_30days",
+  "server_not_premium"
 ];
 
 const spaceEnds = [
