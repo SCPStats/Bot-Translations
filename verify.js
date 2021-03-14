@@ -62,6 +62,8 @@ const keys = [
   "help_cmd_removestaff_desc",
   "help_cmd_stafftime_cmd",
   "help_cmd_stafftime_desc",
+  "help_cmd_warningchannel_cmd",
+  "help_cmd_warningchannel_desc",
   "link_alreadylinked",
   "link_linkmessage",
   "unlink_message",
@@ -127,7 +129,15 @@ const keys = [
   "stafftime_lines_24h",
   "stafftime_lines_7days",
   "stafftime_lines_30days",
-  "server_not_premium"
+  "server_not_premium",
+  "warning_channel_clear_success",
+  "warning_channel_set_success",
+  "warning_title",
+  "warning_field_issuer",
+  "warning_field_issuer_serverconsole",
+  "warning_field_target",
+  "warning_field_id",
+  "warning_field_reason",
 ];
 
 const spaceEnds = [
