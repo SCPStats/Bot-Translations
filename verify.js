@@ -169,7 +169,7 @@ fs.readdirSync("translations/").forEach(file => {
             let vals1 = val.split("=");
 
             if(vals1.length < 2 || vals1[0].includes(" ")){
-                console.warn("Error with invalid line: \""+val+"\" (line "+(i+1)+")!");
+                if(val !== "") console.warn("Error with invalid line: \""+val+"\" (line "+(i+1)+")!");
                 continue;
             }
 
