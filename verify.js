@@ -149,7 +149,9 @@ const keys = [
   "staffpermissions_usage_add",
   "staffpermissions_usage_remove",
   "staffpermissions_add_success",
-  "staffpermissions_remove_success"
+  "staffpermissions_remove_success",
+  "staffpermissions_true",
+  "staffpermissions_false"
 ];
 
 const spaceEnds = [

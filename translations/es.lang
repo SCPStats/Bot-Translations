@@ -149,3 +149,5 @@ staffpermissions_usage_add=staffpermissions <@role> add <permission>
 staffpermissions_usage_remove=staffpermissions <@role> remove <permission>
 staffpermissions_add_success=Successfully added permission!
 staffpermissions_remove_success=Successfully removed permission!
+staffpermissions_true=true
+staffpermissions_false=false
