@@ -8,6 +8,8 @@ const keys = [
   "error_title",
   "error_message",
   "admin_message",
+  "need_permission_message_start",
+  "need_permission_message_end",
   "usage_message",
   "success_message",
   "needs_link",
@@ -66,6 +68,8 @@ const keys = [
   "help_cmd_playtime_desc",
   "help_cmd_warningchannel_cmd",
   "help_cmd_warningchannel_desc",
+  "help_cmd_staffpermissions_cmd",
+  "help_cmd_staffpermissions_desc",
   "link_alreadylinked",
   "link_linkmessage",
   "unlink_message",
@@ -141,9 +145,15 @@ const keys = [
   "warning_field_target",
   "warning_field_id",
   "warning_field_reason",
+  "staffpermissions_permissionslist_title",
+  "staffpermissions_usage_add",
+  "staffpermissions_usage_remove",
+  "staffpermissions_add_success",
+  "staffpermissions_remove_success"
 ];
 
 const spaceEnds = [
+  "need_permission_message_start",
   "usage_message",
   "stats_message",
   "link_linkmessage",
