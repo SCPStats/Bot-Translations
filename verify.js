@@ -201,11 +201,11 @@ fs.readdirSync("translations/").forEach(file => {
                 console.warn("Key name not well formatted for \""+key+"\" (line "+(i+1)+")!");
             }
 
-            if(spaceEnds.includes(key) && !endSpace.test(val)) {
+            if(spaceEnds.includes(key) && !endSpace.test(vals[1])) {
                 console.warn("Value for key \""+key+"\" (line "+(i+1)+") does not end with a space. There may be a valid reason for this in some languages, but most of the time it should end with one, so please double check it!");
             }
 
-            if(spaceStarts.includes(key) && !startSpace.test(val)) {
+            if(spaceStarts.includes(key) && !startSpace.test(vals[1])) {
                 console.warn("Value for key \""+key+"\" (line "+(i+1)+") does not start with a space. There may be a valid reason for this in some languages, but most of the time it should start with one, so please double check it!");
             }
 
