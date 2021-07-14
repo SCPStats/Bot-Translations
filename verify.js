@@ -184,9 +184,11 @@ fs.readdirSync("translations/").forEach(file => {
         console.log("Loading "+langName);
 
         let translation = [];
+  
+        const langs = lang.split(/\r?\n/);
 
-        for (let i = 0; i < lang.split(/\r?\n/).length; i++){
-            let val = lang.split(/\r?\n/)[i];
+        for (let i = 0; i < langs.length; i++){
+            let val = langs[i];
             let vals1 = val.split("=");
 
             if(vals1.length < 2 || vals1[0].includes(" ")){
@@ -194,7 +196,7 @@ fs.readdirSync("translations/").forEach(file => {
                 continue;
             }
 
-            const vals = [vals1.slice(0, 1)[0], vals1.slice(1).join("=")];
+            const vals = [vals1[0], vals1.slice(1).join("=")];
 
             const key = vals[0].trim().toLowerCase();
             if(vals[0] !== key){
