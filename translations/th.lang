@@ -123,6 +123,7 @@ warnings_type_ban=แบน
 warnings_type_kick=เตะ
 warnings_type_mute=Mute
 warnings_type_intercommute=Intercom Mute
+warnings_type_note=Note
 user_not_found=ไม่เจอรายชื่อของผู้ใช้นี้ !
 stafflist_title=รายชื่อสตาฟ
 stafflist_already_staff=ผู้ใช้คนนี้เป็นสตาฟอยู่แล้ว !

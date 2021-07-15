@@ -123,6 +123,7 @@ warnings_type_ban=Ban
 warnings_type_kick=Kick
 warnings_type_mute=Mute
 warnings_type_intercommute=Mute 
+warnings_type_note=Note
 user_not_found=L'utilisateur spécifier n'a pas été trouver.
 stafflist_title=Liste du Staff
 stafflist_already_staff=Cet utilisateur est déjà membre du staff !

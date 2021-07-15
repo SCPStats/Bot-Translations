@@ -123,6 +123,7 @@ warnings_type_ban=Yasaklama
 warnings_type_kick=Atılma
 warnings_type_mute=Susturulma
 warnings_type_intercommute=Intercom Mute
+warnings_type_note=Note
 user_not_found=Belirtilen kişi bulunamadı!
 stafflist_title=Yetkili Listesi
 stafflist_already_staff=Bu kişi zaten bir yetkili!

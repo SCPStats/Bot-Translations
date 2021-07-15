@@ -123,6 +123,7 @@ warnings_type_ban=Ban
 warnings_type_kick=Kick
 warnings_type_mute=Mute
 warnings_type_intercommute=Intercom Mute
+warnings_type_note=Note
 user_not_found=Użytkownik nie został znaleziony.
 stafflist_title=Lista Członków Administracji
 stafflist_already_staff=Użytkownik jest już członkiem administracji!

@@ -123,6 +123,7 @@ warnings_type_ban=Бан
 warnings_type_kick=Кик
 warnings_type_mute=Мут
 warnings_type_intercommute=Мут интеркома
+warnings_type_note=Note
 user_not_found=Указанный игрок не найден!
 stafflist_title=Список администраторов
 stafflist_already_staff=Данный пользователь уже является администратором!

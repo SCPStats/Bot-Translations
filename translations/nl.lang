@@ -123,6 +123,7 @@ warnings_type_ban=Ban
 warnings_type_kick=Kick
 warnings_type_mute=Mute
 warnings_type_intercommute=Intercom Mute
+warnings_type_note=Note
 user_not_found=Deze gebruiker is niet gevonden.
 stafflist_title=Stafflijst
 stafflist_already_staff=Deze gebruiker is al een stafflid!
