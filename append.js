@@ -26,5 +26,5 @@ fs.readdirSync("translations/").forEach(file => {
 		if(name === process.argv[2]) entries.push([process.argv[3], process.argv[4]]);
 	});
 	
-	fs.writeFileSync("translations/"+file, entries.map(entry => entry.join("=")).join("\n"));
+	fs.writeFileSync("translations/"+file, entries.map(entry => entry.join("=")).join("\r\n"));
 });
