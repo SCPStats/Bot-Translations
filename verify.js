@@ -70,6 +70,8 @@ const keys = [
   "help_cmd_warningchannel_desc",
   "help_cmd_staffpermissions_cmd",
   "help_cmd_staffpermissions_desc",
+  "help_cmd_serverstatus_cmd",
+  "help_cmd_serverstatus_desc",
   "link_alreadylinked",
   "link_linkmessage",
   "unlink_message",
@@ -152,7 +154,13 @@ const keys = [
   "staffpermissions_add_success",
   "staffpermissions_remove_success",
   "staffpermissions_true",
-  "staffpermissions_false"
+  "staffpermissions_false",
+  "serverstatus_info",
+  "serverstatus_ip",
+  "serverstatus_port",
+  "serverstatus_staff",
+  "serverstatus_players",
+  "not_available"
 ];
 
 const spaceEnds = [
