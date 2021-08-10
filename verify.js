@@ -160,6 +160,8 @@ const keys = [
   "serverstatus_port",
   "serverstatus_staff",
   "serverstatus_players",
+  "serverstatus_online",
+  "serverstatus_offline",
   "not_available"
 ];
 

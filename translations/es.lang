@@ -161,7 +161,6 @@ serverstatus_ip=IP
 serverstatus_port=Puerto
 serverstatus_staff=Staff Conectado
 serverstatus_players=Jugadores
-serverstatus_status=Server Status
 serverstatus_online=Online 🟢
 serverstatus_offline=Offline 🔴
 not_available=N/A
