@@ -158,6 +158,7 @@ warning_field_issuer_serverconsole=Console del server
 warning_field_target=ID utente
 warning_field_id=ID warn
 warning_field_reason=Ragione
+ban_title=Ban Created
 staffpermissions_permissionslist_title=Permessi
 staffpermissions_usage_add=staffpermissions <@ruolo> add <permesso>
 staffpermissions_usage_remove=staffpermissions <@ruolo> remove <permesso>

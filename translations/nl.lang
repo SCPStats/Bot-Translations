@@ -158,6 +158,7 @@ warning_field_issuer_serverconsole=Server Console
 warning_field_target=Gebruiker ID
 warning_field_id=Waarschuwing ID
 warning_field_reason=Reden
+ban_title=Ban Created
 staffpermissions_permissionslist_title=Machtigingen
 staffpermissions_usage_add=staffpermissions <@role> add <machtiging>
 staffpermissions_usage_remove=staffpermissions <@role> remove <machtiging>

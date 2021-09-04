@@ -158,6 +158,7 @@ warning_field_issuer_serverconsole=Server Console
 warning_field_target=ID hráče
 warning_field_id=Warning ID
 warning_field_reason=Důvod
+ban_title=Ban Created
 staffpermissions_permissionslist_title=Oprávnění
 staffpermissions_usage_add=staffpermissions <@role> add <permission>
 staffpermissions_usage_remove=staffpermissions <@role> remove <permission>
