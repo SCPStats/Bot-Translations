@@ -163,6 +163,7 @@ warning_field_target=User ID
 warning_field_id=Warning ID
 warning_field_reason=Reason
 ban_title=Ban Created
+ban_duration=Duration
 staffpermissions_permissionslist_title=Permissions
 staffpermissions_usage_add=staffpermissions <@role> add <permission>
 staffpermissions_usage_remove=staffpermissions <@role> remove <permission>

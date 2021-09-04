@@ -163,6 +163,7 @@ warning_field_target=User ID
 warning_field_id=ID Предупреждения
 warning_field_reason=Причина
 ban_title=Ban Created
+ban_duration=Duration
 staffpermissions_permissionslist_title=Права
 staffpermissions_usage_add=staffpermissions <@роль> add <право>
 staffpermissions_usage_remove=staffpermissions <@роль> remove <право>

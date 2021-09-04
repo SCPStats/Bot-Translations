@@ -163,6 +163,7 @@ warning_field_target=ไอดีผู้เล่น
 warning_field_id=ไอดีการเตือน
 warning_field_reason=เหตุผลการเตือน
 ban_title=Ban Created
+ban_duration=Duration
 staffpermissions_permissionslist_title=สิทธิการใช้คำสั่ง
 staffpermissions_usage_add=staffpermissions <@role> add <permission>
 staffpermissions_usage_remove=staffpermissions <@role> remove <permission>
