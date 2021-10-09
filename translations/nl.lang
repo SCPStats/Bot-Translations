@@ -183,3 +183,6 @@ serverstatus_offline=Inactief 🔴
 not_available=N/A
 togglestaff_success=Successfully toggled staff!
 xp=xp
+30_day=(30-day)
+7_day=(7-day)
+1_day=(1-day)
