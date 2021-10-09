@@ -61,21 +61,6 @@ help_cmd_addstaff_desc=Aggiungi uno staffer alla lista del bot.
 help_cmd_removestaff_cmd=removestaff <@utente>
 help_cmd_removestaff_desc=Rimuovi uno staffer dalla lista.
 help_cmd_stafftime_cmd=stafftime
-<<<<<<< HEAD
-help_cmd_stafftime_desc=View the time that your staff have spent on your server.
-help_cmd_playtime_cmd=playtime <User ID>
-help_cmd_playtime_desc=View the time a player has spent on your server during the past month, week, and day.
-help_cmd_warningchannel_cmd=warningchannel <#channel | none | clear>
-help_cmd_warningchannel_desc=Sets the channel that warnings should be logged to.
-help_cmd_staffpermissions_cmd=staffpermissions <@role> <list|add|remove> [permission]
-help_cmd_staffpermissions_desc=Manage command permissions.
-help_cmd_persistentleaderboard_cmd=persistentleaderboard [metric]
-help_cmd_persistentleaderboard_desc=Creates a persistent leaderboard for a certain metric that automatically updates.
-help_cmd_serverstatus_cmd=serverstatus <Server ID> <Server Name>
-help_cmd_serverstatus_desc=Creates a server status message which shows a server's player list, including a separate list of staff as well as server details such as its IP and port.
-help_cmd_togglestaff_cmd=togglestaff <message ID>
-help_cmd_togglestaff_desc=Hides or shows the staff section of a server status message.
-=======
 help_cmd_stafftime_desc=Visualizza quanto tempo gli staffer stanno nel server.
 help_cmd_playtime_cmd=playtime <ID utente>
 help_cmd_playtime_desc=Visualizza quanto tempo ha speso un utente nel server negli ultimi mesi, settimane e giorni.
@@ -89,7 +74,8 @@ help_cmd_persistentleaderboard_cmd=persistentleaderboard [fattore]
 help_cmd_persistentleaderboard_desc=Crea una classifica persistente che si aggiorna automaticamente seguendo un fattore preimpostato.
 help_cmd_serverstatus_cmd=serverstatus <ID server> <nome server>
 help_cmd_serverstatus_desc=Crea un messaggio che mostra una lista dei giocatori di un server, includendo una lista degli staffer separata così come i dettagli del server co,e il suo IP.
->>>>>>> cdfbffd8ab6e84c7c7c640d89d92148145755148
+help_cmd_togglestaff_cmd=togglestaff <message ID>
+help_cmd_togglestaff_desc=Hides or shows the staff section of a server status message.
 link_alreadylinked=Questo server è già collegato!
 link_notowner=Devi essere il proprietario dell'SCPStats specificato per collegarlo.
 link_message=Server collegato!
