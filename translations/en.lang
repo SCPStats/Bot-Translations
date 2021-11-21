@@ -6,7 +6,7 @@ need_permission_message_end= permission!
 usage_message=Usage: 
 success_message=Success
 needs_link=This discord server isn't linked to any SCP servers. It can be linked with the `!link <server ID>` command.
-stats_notpublic=This player doesn't have any stats, or their stats are not public. Users must register at https://scpstats.com/steam before stats are displayed.
+stats_notpublic=This player doesn't have any stats, or their stats are not public. Users must register at [https://scpstats.com/steam](https://discord.com/oauth2/authorize?client_id=767859790969438229&redirect_uri=https%3A%2F%2Fscpstats.com%2Fdiscord&response_type=code&scope=identify%20connections&state=steam) before stats are displayed.
 stats_title=Stats
 stats_message=Stats for 
 stats_field_kills=Kills

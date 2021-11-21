@@ -6,7 +6,7 @@ need_permission_message_end= oprávnění!
 usage_message=Užití: 
 success_message=Hotovo
 needs_link=Tento discord server není připojen k žádnému SCP serveru. Může být připojen pomocí příkazu `!link <server ID>` .
-stats_notpublic=Tenhle hráč nemá žádné statistiky, nebo jeho statistiky nejsou veřejné. Uživatel se musí zaregistrovat na https://scpstats.com/steam než budou jeho statistiky zobrazeny.
+stats_notpublic=Tenhle hráč nemá žádné statistiky, nebo jeho statistiky nejsou veřejné. Uživatel se musí zaregistrovat na [https://scpstats.com/steam](https://discord.com/oauth2/authorize?client_id=767859790969438229&redirect_uri=https%3A%2F%2Fscpstats.com%2Fdiscord&response_type=code&scope=identify%20connections&state=steam) než budou jeho statistiky zobrazeny.
 stats_title=Statistiky
 stats_message=Statistiky pro 
 stats_field_kills=Zabití

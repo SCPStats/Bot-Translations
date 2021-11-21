@@ -6,7 +6,7 @@ need_permission_message_end= permission!
 usage_message=Instrukcja: 
 success_message=Sukces
 needs_link=Ten Discord nie jest połączony z żadnym serwerem. By to zrobić użyj komendy `!link <server ID>`.
-stats_notpublic=Ten gracz nie posiada żadnych statystyk, lub jego statystyki są ukryte. Gracze muszą się zalogować na https://scpstats.com/steam zanim ich statystyki zostaną wyświetlone.
+stats_notpublic=Ten gracz nie posiada żadnych statystyk, lub jego statystyki są ukryte. Gracze muszą się zalogować na [https://scpstats.com/steam](https://discord.com/oauth2/authorize?client_id=767859790969438229&redirect_uri=https%3A%2F%2Fscpstats.com%2Fdiscord&response_type=code&scope=identify%20connections&state=steam) zanim ich statystyki zostaną wyświetlone.
 stats_title=Statystyki 
 stats_message=Statystyki 
 stats_field_kills=Zabójstwa 

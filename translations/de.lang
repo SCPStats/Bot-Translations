@@ -6,7 +6,7 @@ need_permission_message_end= permission!
 usage_message=Benutzung: 
 success_message=Erfolgreich
 needs_link=Dieser Discord Server ist mit keinem SCP Server verbunden. Er kann mit dem `!link <Server ID>` Befehl verbunden werden.
-stats_notpublic=Dieser Spieler hat keine Statistiken, oder aber dessen Statistiken sind nicht öffentlich. Nutzer müssen vor dem Anzeigen der Statistiken bei https://scpstats.com/steam registriert sein.
+stats_notpublic=Dieser Spieler hat keine Statistiken, oder aber dessen Statistiken sind nicht öffentlich. Nutzer müssen vor dem Anzeigen der Statistiken bei [https://scpstats.com/steam](https://discord.com/oauth2/authorize?client_id=767859790969438229&redirect_uri=https%3A%2F%2Fscpstats.com%2Fdiscord&response_type=code&scope=identify%20connections&state=steam) registriert sein.
 stats_title=Statistiken
 stats_message=Statistiken für 
 stats_field_kills=Tötungen
