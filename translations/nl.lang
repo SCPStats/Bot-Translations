@@ -7,6 +7,7 @@ usage_message=Gebruik:
 success_message=Succes
 needs_link=Deze Discord is niet gekoppeld aan 1 of meer SCP servers. Je kan koppelen met het `!link <server ID>` commando.
 stats_notpublic=Deze speler heeft geen statistieken, of zijn/haar statistieken zijn niet openbaar. Spelers moeten registreren bij [https://scpstats.com/steam](https://discord.com/oauth2/authorize?client_id=767859790969438229&redirect_uri=https%3A%2F%2Fscpstats.com%2Fdiscord&response_type=code&scope=identify%20connections&state=steam) voordat statistieken worden weergegeven.
+register=Register
 stats_title=Statistieken
 stats_message=Statistieken voor 
 stats_field_kills=Kills

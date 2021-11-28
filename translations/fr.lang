@@ -7,6 +7,7 @@ usage_message=Usage :
 success_message=Succès
 needs_link=Ce serveur de Discord n'est lié à aucun serveur de SCP: Secret Laboratory. Vous pouvez le lier avec la commande suivante: `!lien <ID du serveur>`
 stats_notpublic=Ce joueur n'est pas inscrit, ou leurs stats ne sont pas publiques. Les utilisateurs doivent s'inscrire sur [https://scpstats.com/steam](https://discord.com/oauth2/authorize?client_id=767859790969438229&redirect_uri=https%3A%2F%2Fscpstats.com%2Fdiscord&response_type=code&scope=identify%20connections&state=steam) avant que les statistiques ne soient affichées.
+register=Register
 stats_title=Statistiques
 stats_message=Statistiques pour 
 stats_field_kills=Meurtres

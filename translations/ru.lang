@@ -7,6 +7,7 @@ usage_message=Использование:
 success_message=Успешно
 needs_link=Этот Discord сервер не привязан ни к одному SCP серверу. Это можно сделать при помощи команды `!link <ID сервера>`.
 stats_notpublic=Этот игрок не имеет статистики или его статистика не является публичной. Игроки должны зарегистрироваться на [https://scpstats.com/steam](https://discord.com/oauth2/authorize?client_id=767859790969438229&redirect_uri=https%3A%2F%2Fscpstats.com%2Fdiscord&response_type=code&scope=identify%20connections&state=steam) перед тем, как их статистика будет отображена.
+register=Register
 stats_title=Статистика
 stats_message=Статистика игрока 
 stats_field_kills=Убийства

@@ -7,6 +7,7 @@ usage_message=Uso:
 success_message=Listo
 needs_link=Este servidor de discord no está vinculado a uno de SCP. Puede vincularse con el comando `!link <server ID>`.
 stats_notpublic=Este jugador no tiene estadísticas o estas no son públicas. Los usuarios tienen que registrarse en [https://scpstats.com/steam](https://discord.com/oauth2/authorize?client_id=767859790969438229&redirect_uri=https%3A%2F%2Fscpstats.com%2Fdiscord&response_type=code&scope=identify%20connections&state=steam) para que sus estadísticas aparezcan.
+register=Register
 stats_title=Estadísticas
 stats_message=Estadísticas de 
 stats_field_kills=Asesinatos

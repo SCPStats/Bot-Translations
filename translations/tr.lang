@@ -7,6 +7,7 @@ usage_message=Kullanım:
 success_message=Başarılı
 needs_link=Bu discord sunucusu herhangi bir SCP:SL sunucusuna bağlanmamış. `!link <server ID>` komudu ile bağlayabilirsin.
 stats_notpublic=Bu oyuncunun istatistikleri yok veya herkese açık değil. Oyuncular [https://scpstats.com/steam](https://discord.com/oauth2/authorize?client_id=767859790969438229&redirect_uri=https%3A%2F%2Fscpstats.com%2Fdiscord&response_type=code&scope=identify%20connections&state=steam) sitesine kayıt olmadan istatistikleri gösterilemez.
+register=Register
 stats_title=İstatistikler
 stats_message=İstatistikleri Görüntülenen Kişi: 
 stats_field_kills=Ölme
