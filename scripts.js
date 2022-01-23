@@ -1,4 +1,4 @@
-exports.ordinals = {en: ord_en};
+exports.ordinals = {en: ord_en, ru: ord_ru};
 
 function ord_en(i){
     const j = i % 10,
@@ -13,4 +13,8 @@ function ord_en(i){
         return i + "rd";
     }
     return i + "th";
+}
+
+function ord_ru(i){
+    return "" + i;
 }
