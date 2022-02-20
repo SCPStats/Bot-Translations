@@ -4,171 +4,7 @@ This file is used by the Github Workflow to verify that the translations contain
 
 const fs = require("fs");
 
-const keys = [
-  "error_title",
-  "error_message",
-  "admin_message",
-  "need_permission_message_start",
-  "need_permission_message_end",
-  "usage_message",
-  "success_message",
-  "needs_link",
-  "stats_notpublic",
-  "stats_title",
-  "stats_message",
-  "stats_field_kills",
-  "stats_field_deaths",
-  "stats_field_kd",
-  "stats_field_playtime",
-  "stats_field_rounds",
-  "stats_field_sodas",
-  "stats_field_escapes",
-  "stats_field_fastestescape",
-  "stats_footer",
-  "help_title",
-  "help_cmd_help_cmd",
-  "help_cmd_help_desc",
-  "help_cmd_stats_cmd",
-  "help_cmd_stats_desc",
-  "help_cmd_rank_cmd",
-  "help_cmd_rank_desc",
-  "help_cmd_serverrank_cmd",
-  "help_cmd_serverrank_desc",
-  "help_cmd_serverstats_cmd",
-  "help_cmd_serverstats_desc",
-  "help_cmd_leaderboard_cmd",
-  "help_cmd_leaderboard_desc",
-  "help_cmd_prefix_cmd",
-  "help_cmd_prefix_desc",
-  "help_cmd_link_cmd",
-  "help_cmd_link_desc",
-  "help_cmd_unlink_cmd",
-  "help_cmd_unlink_desc",
-  "help_cmd_servers_cmd",
-  "help_cmd_servers_desc",
-  "help_cmd_invite_cmd",
-  "help_cmd_invite_desc",
-  "help_cmd_botinfo_cmd",
-  "help_cmd_botinfo_desc",
-  "help_cmd_lang_cmd",
-  "help_cmd_lang_desc",
-  "help_cmd_rankrole_cmd",
-  "help_cmd_rankrole_desc",
-  "help_cmd_rankroles_cmd",
-  "help_cmd_rankroles_desc",
-  "help_cmd_warnings_cmd",
-  "help_cmd_warnings_desc",
-  "help_cmd_stafflist_cmd",
-  "help_cmd_stafflist_desc",
-  "help_cmd_addstaff_cmd",
-  "help_cmd_addstaff_desc",
-  "help_cmd_removestaff_cmd",
-  "help_cmd_removestaff_desc",
-  "help_cmd_stafftime_cmd",
-  "help_cmd_stafftime_desc",
-  "help_cmd_playtime_cmd",
-  "help_cmd_playtime_desc",
-  "help_cmd_warningchannel_cmd",
-  "help_cmd_warningchannel_desc",
-  "help_cmd_staffpermissions_cmd",
-  "help_cmd_staffpermissions_desc",
-  "help_cmd_serverstatus_cmd",
-  "help_cmd_serverstatus_desc",
-  "link_alreadylinked",
-  "link_notowner",
-  "link_message",
-  "unlink_message",
-  "unlink_notlinked",
-  "servers_title",
-  "servers_desc",
-  "prefix_noprefix",
-  "prefix_toolong",
-  "prefix_message",
-  "leaderboard_title",
-  "leaderboard_desc",
-  "leaderboard_place",
-  "leaderboard_title_kills",
-  "leaderboard_title_deaths",
-  "leaderboard_title_rounds",
-  "leaderboard_title_playtime",
-  "leaderboard_title_sodas",
-  "leaderboard_title_medkits",
-  "leaderboard_title_balls",
-  "leaderboard_title_adrenaline",
-  "leaderboard_title_escapes",
-  "leaderboard_title_fastestescape",
-  "invite_title",
-  "invite_msg",
-  "botinfo_title",
-  "botinfo_desc",
-  "botinfo_field_author",
-  "botinfo_field_servers",
-  "botinfo_field_invite",
-  "lang_title",
-  "lang_desc",
-  "lang_thislang",
-  "lang_success",
-  "hours",
-  "minutes",
-  "seconds",
-  "rank_rank",
-  "rank_level",
-  "needs_manage_roles",
-  "rank_roles_title",
-  "rank_roles_setup",
-  "rank_role_title",
-  "rank_role_usage",
-  "rank_role_invalid_rule",
-  "rank_role_invalid_metric",
-  "rank_role_invalid_number",
-  "rank_role_invalid_role",
-  "rank_role_success",
-  "warnings_title",
-  "warnings_footer",
-  "warnings_message_top",
-  "warnings_type_warning",
-  "warnings_type_ban",
-  "warnings_type_kick",
-  "warnings_type_mute",
-  "warnings_type_intercommute",
-  "warnings_type_note",
-  "user_not_found",
-  "stafflist_title",
-  "stafflist_already_staff",
-  "stafflist_not_staff",
-  "stafflist_add_success",
-  "stafflist_remove_success",
-  "stafftime_title",
-  "stafftime_lines_total",
-  "stafftime_lines_24h",
-  "stafftime_lines_7days",
-  "stafftime_lines_30days",
-  "playtime_title",
-  "server_not_premium",
-  "warning_channel_clear_success",
-  "warning_channel_set_success",
-  "warning_title",
-  "warning_field_issuer",
-  "warning_field_issuer_serverconsole",
-  "warning_field_target",
-  "warning_field_id",
-  "warning_field_reason",
-  "staffpermissions_permissionslist_title",
-  "staffpermissions_usage_add",
-  "staffpermissions_usage_remove",
-  "staffpermissions_add_success",
-  "staffpermissions_remove_success",
-  "staffpermissions_true",
-  "staffpermissions_false",
-  "serverstatus_info",
-  "serverstatus_ip",
-  "serverstatus_port",
-  "serverstatus_staff",
-  "serverstatus_players",
-  "serverstatus_online",
-  "serverstatus_offline",
-  "not_available"
-];
+const keys = fs.readFileSync("translations/en.lang", "utf-8").split(/\r?\n/).map(line => line.split("=")[0]);
 
 const spaceEnds = [
   "need_permission_message_start",
@@ -195,11 +31,11 @@ let error = false;
 fs.readdirSync("translations/").forEach(file => {
         const lang = fs.readFileSync("translations/"+file, "utf-8");
         const langName = file.split(".")[0];
-        
+
         console.log("Loading "+langName);
 
         let translation = [];
-  
+
         const langs = lang.split(/\r?\n/);
 
         for (let i = 0; i < langs.length; i++){
@@ -231,7 +67,6 @@ fs.readdirSync("translations/").forEach(file => {
             }
 
             translation.push(key);
-
         }
 
         let localError = false;
@@ -239,10 +74,10 @@ fs.readdirSync("translations/").forEach(file => {
         keys.filter(key => !translation.includes(key)).forEach(key => {
             error = true;
             localError = true;
-            
+
             console.error("Translation missing key \""+key+"\"!");
         });
-        
+
         if(!localError){
             console.log("Translation Ok!");
         } else {
@@ -252,4 +87,4 @@ fs.readdirSync("translations/").forEach(file => {
 
 if(error){
     throw new Error("There was one or more errors in the translation files. Please review the log for further details.");
-}    
+}
