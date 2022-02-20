@@ -6,23 +6,6 @@ const fs = require("fs");
 
 const keys = fs.readFileSync("translations/en.lang", "utf-8").split(/\r?\n/).map(line => line.split("=")[0]);
 
-const spaceEnds = [
-  "need_permission_message_start",
-  "usage_message",
-  "stats_message",
-  "invite_msg",
-  "warnings_footer",
-  "stafftime_lines_total",
-  "stafftime_lines_24h",
-  "stafftime_lines_7days",
-  "stafftime_lines_30days"
-];
-
-const spaceStarts = [
-  "need_permission_message_end",
-  "leaderboard_place"
-];
-
 const endSpace = /\s$/;
 const startSpace = /^\s/;
 
@@ -54,12 +37,12 @@ fs.readdirSync("translations/").forEach(file => {
                 console.warn("Key name not well formatted for \""+key+"\" (line "+(i+1)+")!");
             }
 
-            if(spaceEnds.includes(key) && !endSpace.test(vals[1])) {
-                console.warn("Value for key \""+key+"\" (line "+(i+1)+") does not end with a space. There may be a valid reason for this in some languages, but most of the time it should end with one, so please double check it!");
+            if(endSpace.test(vals[1])) {
+                console.warn("Value for key \""+key+"\" (line "+(i+1)+") ends with a space. There may be a valid reason for this in some languages, but most of the time it should end with one, so please double check it!");
             }
 
-            if(spaceStarts.includes(key) && !startSpace.test(vals[1])) {
-                console.warn("Value for key \""+key+"\" (line "+(i+1)+") does not start with a space. There may be a valid reason for this in some languages, but most of the time it should start with one, so please double check it!");
+            if(startSpace.test(vals[1])) {
+                console.warn("Value for key \""+key+"\" (line "+(i+1)+") starts with a space. There may be a valid reason for this in some languages, but most of the time it should start with one, so please double check it!");
             }
 
             if(translation.includes(key)) {
