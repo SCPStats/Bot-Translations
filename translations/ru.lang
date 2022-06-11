@@ -217,5 +217,5 @@ slash_commands_title=Слэш-команды
 slash_commands_msg1=Команды SCPStats переведены на слэш-команды. Это означает, что вместо использования обычных префиксов (`!`, `?`, `.`, и т.д.), вам следует начинать команды с `/`. Например, `/stats`.
 slash_commands_msg2=Если у вас возникают проблемы со слэш-командами, убедитесь, что у вас есть права на их использование, что вы используете их корректно. Для получения доп. информации о слэш-командах, см. https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands-FAQ.
 playtime_mode_set_success=Successfully set playtime mode!
-server_status_success=Successfully created a server status message. If you want player names to appear, enable  in your server configs.
+server_status_success=Successfully created a server status message. If you want player names to appear, enable  in your server configs by setting `send_player_names` to `true`.
 persistent_leaderboard_success=Successfully created a persistent leaderboard!

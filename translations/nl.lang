@@ -217,5 +217,5 @@ slash_commands_title=/-opdrachten
 slash_commands_msg1=De opdrachten van SCPStats zijn aangepast om het /-opdrachten systeem te gebruiken. Dit betekent dat de opdrachten niet meer starten met een prefix (zoals `!`, `?`, `.`, etc), maar met een `/`, zoals `/stats`.
 slash_commands_msg2=Als je problemen hebt met /-opdrachten uitvoeren, zorg er dan voor dat je de permissies hebt om ze te gebruiken, en dat je ze correct gebruikt. Voor meer informatie over /-opdrachten, kijk op https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands-FAQ.
 playtime_mode_set_success=Successfully set playtime mode!
-server_status_success=Successfully created a server status message. If you want player names to appear, enable  in your server configs.
+server_status_success=Successfully created a server status message. If you want player names to appear, enable  in your server configs by setting `send_player_names` to `true`.
 persistent_leaderboard_success=Successfully created a persistent leaderboard!

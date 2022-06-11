@@ -217,5 +217,5 @@ slash_commands_title=Slash komendy
 slash_commands_msg1=Komendy SCPStats' zostały przeniesione do slash komend. Oznacza to, że zamiast rozpoczynania komend prefixem (takimi jak `!`, `?`, `.`, itp.), musisz zacząć je z `/`. Dla przykładu, `/stats`.
 slash_commands_msg2=Jeżeli masz problem z używaniem slash komend, upewnij się, że posiadasz wymagane uprawnienia oraz używasz ich poprawnie. Aby zdobyć więcej informacji na temat slash komend, zobacz https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands-FAQ.
 playtime_mode_set_success=Pomyślnie ustawiono tryb czasu gry!
-server_status_success=Successfully created a server status message. If you want player names to appear, enable  in your server configs.
+server_status_success=Successfully created a server status message. If you want player names to appear, enable  in your server configs by setting `send_player_names` to `true`.
 persistent_leaderboard_success=Successfully created a persistent leaderboard!

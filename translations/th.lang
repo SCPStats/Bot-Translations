@@ -217,5 +217,5 @@ slash_commands_title=Slash Commands
 slash_commands_msg1=คำสั่งของ SCPStats จะเปลี่ยนไปใช้ระบบ slash commands ซึ่งแปลว่าคำสั่งจะเริ่มต้นด้วยตัว `/` (เช่น `/stats`) แทนการเริ่มต้นด้วยตัวอักษรที่ตั้งไว้ (เช่น `!`, `?`, `.`, และอื่น ๆ)
 slash_commands_msg2=หากคุณพบปัญหาในการใช้ slash commands กรุณาเช็กก่อนว่าคุณมีการเข้าถึงการใช้คำสั่งและเช็กว่าคุณใช้ถุกวิธีแล้วหรือยัง สำหรับข้อมูลเพิ่มเติมเกี่ยวกับ slash commands โปรดอ่านที่ https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands-FAQ
 playtime_mode_set_success=Successfully set playtime mode!
-server_status_success=Successfully created a server status message. If you want player names to appear, enable  in your server configs.
+server_status_success=Successfully created a server status message. If you want player names to appear, enable  in your server configs by setting `send_player_names` to `true`.
 persistent_leaderboard_success=Successfully created a persistent leaderboard!
