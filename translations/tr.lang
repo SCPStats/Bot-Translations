@@ -217,3 +217,5 @@ slash_commands_title=Slash Commands
 slash_commands_msg1=SCPStats' commands have moved to slash commands. This means that instead of starting commands with a prefix (such as `!`, `?`, `.`, etc), you need to start them with `/`. For example, `/stats`.
 slash_commands_msg2=If you are having trouble with slash commands, make sure that you have permission to use them, and that you are using them correctly. For more information on slash commands, see https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands-FAQ.
 playtime_mode_set_success=Successfully set playtime mode!
+server_status_success=Successfully created a server status message. If you want player names to appear, enable  in your server configs.
+persistent_leaderboard_success=Successfully created a persistent leaderboard!
