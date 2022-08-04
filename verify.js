@@ -4,7 +4,7 @@ This file is used by the Github Workflow to verify that the translations contain
 
 const fs = require("fs");
 
-const keys = fs.readFileSync("translations/en.lang", "utf-8").split(/\r?\n/).map(line => line.split("=")[0]);
+const keys = fs.readFileSync("translations/en.lang", "utf-8").split(/\r?\n/).filter(Boolean).map(line => line.split("=")[0]);
 
 const endSpace = /\s$/;
 const startSpace = /^\s/;
