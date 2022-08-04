@@ -23,6 +23,8 @@ fs.readdirSync("translations/").forEach(file => {
 
         for (let i = 0; i < langs.length; i++){
             let val = langs[i];
+            if(!val) continue;
+
             let vals1 = val.split("=");
 
             if(vals1.length < 2 || vals1[0].includes(" ")){
