@@ -224,4 +224,4 @@ nosweat_tip_2=Pro-Tip: Играйте ради веселья, а не цифр.
 nosweat_tip_3=Pro-Tip: Можно попасть в множество таблиц лидеров. Попробуйте стать первым по выпитым газировкам.
 nosweat_tip_4=Pro-Tip: XP можно получить, выполняя действия, вроде побегов (и вывода других), использований предметов, убийств и побед.
 nosweat_tip_5=Pro-Tip: Система XP поощряет выполнение основной задачи вашей роли.
-goodbye_msg=SCPStats is shutting down soon. Go to https://scpstats.com/export to export your stat data. For server owners, you can export your moderation data at https://panel.scpstats.com/myservers. For more information, go to the SCPStats discord server.
+goodbye_msg=SCPStats скоро закроется. Свою статистику можно экспортировать на https://scpstats.com/export. Владельцы серверов могут экспортировать данные модерации на https://panel.scpstats.com/myservers. Больше информации на Discord-сервере SCPStats.
